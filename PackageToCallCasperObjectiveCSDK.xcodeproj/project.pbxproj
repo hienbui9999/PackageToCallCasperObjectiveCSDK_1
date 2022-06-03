@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		90DCF1482849BC6D00426188 /* PackageToCallCasperObjectiveCSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = 90DCF1472849BC6D00426188 /* PackageToCallCasperObjectiveCSDK.docc */; };
-		90DCF14E2849BC6D00426188 /* PackageToCallCasperObjectiveCSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90DCF1432849BC6D00426188 /* PackageToCallCasperObjectiveCSDK.framework */; };
-		90DCF1532849BC6D00426188 /* PackageToCallCasperObjectiveCSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DCF1522849BC6D00426188 /* PackageToCallCasperObjectiveCSDKTests.m */; };
-		90DCF1542849BC6D00426188 /* PackageToCallCasperObjectiveCSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 90DCF1462849BC6D00426188 /* PackageToCallCasperObjectiveCSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90DCF15F2849BE1C00426188 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DCF15E2849BE1C00426188 /* Package.swift */; };
+		90DCF1602849BE1C00426188 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DCF15E2849BE1C00426188 /* Package.swift */; };
+		90DCF1652849C44000426188 /* StateRootHashHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 90DCF1642849C44000426188 /* StateRootHashHandler.h */; };
+		90DCF1672849C54000426188 /* StateRootHashHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DCF1662849C54000426188 /* StateRootHashHandler.m */; };
+		90DCF1682849C54000426188 /* StateRootHashHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DCF1662849C54000426188 /* StateRootHashHandler.m */; };
+		90DCF16D2849C63000426188 /* GetStatusHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 90DCF16C2849C63000426188 /* GetStatusHandler.h */; };
+		90DCF16F2849C63D00426188 /* GetStatusHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DCF16E2849C63D00426188 /* GetStatusHandler.m */; };
+		90DCF1702849C63D00426188 /* GetStatusHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DCF16E2849C63D00426188 /* GetStatusHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +28,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		90DCF1432849BC6D00426188 /* PackageToCallCasperObjectiveCSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PackageToCallCasperObjectiveCSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		90DCF1462849BC6D00426188 /* PackageToCallCasperObjectiveCSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PackageToCallCasperObjectiveCSDK.h; sourceTree = "<group>"; };
-		90DCF1472849BC6D00426188 /* PackageToCallCasperObjectiveCSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = PackageToCallCasperObjectiveCSDK.docc; sourceTree = "<group>"; };
-		90DCF14D2849BC6D00426188 /* PackageToCallCasperObjectiveCSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PackageToCallCasperObjectiveCSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		90DCF1522849BC6D00426188 /* PackageToCallCasperObjectiveCSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PackageToCallCasperObjectiveCSDKTests.m; sourceTree = "<group>"; };
+		90DCF1432849BC6D00426188 /* PackageToCallCasperObjectiveCSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PackageToCallCasperObjectiveCSDK.framework; path = "/Users/hien/ObjCLibs/UsageSample/PackageToCallCasperObjectiveCSDK/build/Debug-iphoneos/PackageToCallCasperObjectiveCSDK.framework"; sourceTree = "<absolute>"; };
+		90DCF14D2849BC6D00426188 /* PackageToCallCasperObjectiveCSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PackageToCallCasperObjectiveCSDKTests.xctest; path = "/Users/hien/ObjCLibs/UsageSample/PackageToCallCasperObjectiveCSDK/build/Debug-iphoneos/PackageToCallCasperObjectiveCSDKTests.xctest"; sourceTree = "<absolute>"; };
+		90DCF15D2849BE1C00426188 /* PackageToCallCasperObjectiveCSDKTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PackageToCallCasperObjectiveCSDKTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		90DCF15E2849BE1C00426188 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		90DCF1642849C44000426188 /* StateRootHashHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateRootHashHandler.h; sourceTree = "<group>"; };
+		90DCF1662849C54000426188 /* StateRootHashHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateRootHashHandler.m; sourceTree = "<group>"; };
+		90DCF16C2849C63000426188 /* GetStatusHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetStatusHandler.h; sourceTree = "<group>"; };
+		90DCF16E2849C63D00426188 /* GetStatusHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetStatusHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +50,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90DCF14E2849BC6D00426188 /* PackageToCallCasperObjectiveCSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,36 +59,69 @@
 		90DCF1392849BC6D00426188 = {
 			isa = PBXGroup;
 			children = (
-				90DCF1452849BC6D00426188 /* PackageToCallCasperObjectiveCSDK */,
-				90DCF1512849BC6D00426188 /* PackageToCallCasperObjectiveCSDKTests */,
-				90DCF1442849BC6D00426188 /* Products */,
+				90DCF15E2849BE1C00426188 /* Package.swift */,
+				90DCF1452849BC6D00426188 /* Sources */,
+				90DCF15D2849BE1C00426188 /* PackageToCallCasperObjectiveCSDKTests-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
-		90DCF1442849BC6D00426188 /* Products */ = {
+		90DCF1452849BC6D00426188 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				90DCF1432849BC6D00426188 /* PackageToCallCasperObjectiveCSDK.framework */,
-				90DCF14D2849BC6D00426188 /* PackageToCallCasperObjectiveCSDKTests.xctest */,
+				90DCF1692849C60600426188 /* Full */,
+				90DCF1612849C1CA00426188 /* Core */,
 			);
-			name = Products;
+			path = Sources;
 			sourceTree = "<group>";
 		};
-		90DCF1452849BC6D00426188 /* PackageToCallCasperObjectiveCSDK */ = {
+		90DCF1612849C1CA00426188 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				90DCF1462849BC6D00426188 /* PackageToCallCasperObjectiveCSDK.h */,
-				90DCF1472849BC6D00426188 /* PackageToCallCasperObjectiveCSDK.docc */,
+				90DCF1622849C2D700426188 /* Public */,
+				90DCF1662849C54000426188 /* StateRootHashHandler.m */,
 			);
-			path = PackageToCallCasperObjectiveCSDK;
+			path = Core;
 			sourceTree = "<group>";
 		};
-		90DCF1512849BC6D00426188 /* PackageToCallCasperObjectiveCSDKTests */ = {
+		90DCF1622849C2D700426188 /* Public */ = {
 			isa = PBXGroup;
 			children = (
-				90DCF1522849BC6D00426188 /* PackageToCallCasperObjectiveCSDKTests.m */,
+				90DCF1632849C2E400426188 /* SamplePackageToCallCasperSDKObjectiveC */,
 			);
-			path = PackageToCallCasperObjectiveCSDKTests;
+			path = Public;
+			sourceTree = "<group>";
+		};
+		90DCF1632849C2E400426188 /* SamplePackageToCallCasperSDKObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				90DCF1642849C44000426188 /* StateRootHashHandler.h */,
+			);
+			path = SamplePackageToCallCasperSDKObjectiveC;
+			sourceTree = "<group>";
+		};
+		90DCF1692849C60600426188 /* Full */ = {
+			isa = PBXGroup;
+			children = (
+				90DCF16A2849C61000426188 /* Public */,
+				90DCF16E2849C63D00426188 /* GetStatusHandler.m */,
+			);
+			path = Full;
+			sourceTree = "<group>";
+		};
+		90DCF16A2849C61000426188 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				90DCF16B2849C61900426188 /* SamplePackageToCallCasperSDKObjectiveC */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		90DCF16B2849C61900426188 /* SamplePackageToCallCasperSDKObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				90DCF16C2849C63000426188 /* GetStatusHandler.h */,
+			);
+			path = SamplePackageToCallCasperSDKObjectiveC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,7 +131,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90DCF1542849BC6D00426188 /* PackageToCallCasperObjectiveCSDK.h in Headers */,
+				90DCF16D2849C63000426188 /* GetStatusHandler.h in Headers */,
+				90DCF1652849C44000426188 /* StateRootHashHandler.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +186,11 @@
 				TargetAttributes = {
 					90DCF1422849BC6D00426188 = {
 						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
 					};
 					90DCF14C2849BC6D00426188 = {
 						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
 					};
 				};
 			};
@@ -161,7 +203,7 @@
 				Base,
 			);
 			mainGroup = 90DCF1392849BC6D00426188;
-			productRefGroup = 90DCF1442849BC6D00426188 /* Products */;
+			productRefGroup = 90DCF1392849BC6D00426188;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -193,7 +235,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90DCF1482849BC6D00426188 /* PackageToCallCasperObjectiveCSDK.docc in Sources */,
+				90DCF1672849C54000426188 /* StateRootHashHandler.m in Sources */,
+				90DCF15F2849BE1C00426188 /* Package.swift in Sources */,
+				90DCF16F2849C63D00426188 /* GetStatusHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +245,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90DCF1532849BC6D00426188 /* PackageToCallCasperObjectiveCSDKTests.m in Sources */,
+				90DCF1682849C54000426188 /* StateRootHashHandler.m in Sources */,
+				90DCF1602849BE1C00426188 /* Package.swift in Sources */,
+				90DCF1702849C63D00426188 /* GetStatusHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +383,7 @@
 		90DCF1582849BC6D00426188 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -356,6 +403,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -363,6 +412,7 @@
 		90DCF1592849BC6D00426188 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -382,6 +432,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -389,6 +440,8 @@
 		90DCF15B2849BC6D00426188 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -401,6 +454,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.caspersdk.PackageToCallCasperObjectiveCSDKTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "PackageToCallCasperObjectiveCSDKTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -408,6 +464,8 @@
 		90DCF15C2849BC6D00426188 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -420,6 +478,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.caspersdk.PackageToCallCasperObjectiveCSDKTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "PackageToCallCasperObjectiveCSDKTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
